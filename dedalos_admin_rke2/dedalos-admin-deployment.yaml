@@ -1,0 +1,33 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: django-admin-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: django-admin-app
+  template:
+    metadata:
+      labels:
+        app: django-admin-app
+     
+    spec:
+      containers:
+        - name: django-admin-app
+          image: registry.arqhabana.org:5005/ccpfv/dedalos-admin:v0.2
+          ports:
+            - containerPort: 3005
+          resources: {}  
+          env:
+            - name: DB_HOST
+              value: postgresql-service
+            - name: DB_NAME
+              value: dedalos_ccpfv
+            - name: DB_USER
+              value: edr
+            - name: DB_PASSWORD
+              value: H@bana2019*
+      imagePullSecrets:
+        - name: dedalos-admin-secret

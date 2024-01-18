@@ -1,0 +1,13 @@
+(undo-tree-save-format-version . 1)
+"56fbee43b56e87c6891500d1757d249ebfbcb6ca"
+[nil nil nil nil (26017 49667 203778 513000) 0 (:visualizer [0 1 0 #<marker in no buffer>])]
+([nil nil ((#("frontend" 0 8 (fontified t)) . -751) (759 . 764) (#("frontend" 0 8 (fontified t)) . -217) (225 . 230) (#("frontend" 0 8 (fontified t)) . -147) (t 26017 49625 949889 248000) (155 . 160) 75 (t 26017 49625 949889 248000)) nil (26017 49705 846152 311000) 0 nil])
+([nil nil ((#("frontend" 0 8 (fontified t)) . -67) (75 . 80) 51) nil (26017 49705 846147 911000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . -308) (undo-tree-id1 . -1) (#("g" 0 1 (fontified t)) . -309) (undo-tree-id2 . -1) (#("i" 0 1 (fontified t)) . -310) (undo-tree-id3 . -1) (#("s" 0 1 (fontified t)) . -311) (undo-tree-id4 . -1) (#("t" 0 1 (fontified t)) . -312) (undo-tree-id5 . -1) (#("r" 0 1 (fontified t)) . -313) (undo-tree-id6 . -1) (#("y" 0 1 (fontified t)) . -314) (undo-tree-id7 . -1) (#("." 0 1 (fontified t)) . -315) (undo-tree-id8 . -1) (#("a" 0 1 (fontified t)) . -316) (undo-tree-id9 . -1) (#("r" 0 1 (fontified t)) . -317) (undo-tree-id10 . -1) (#("q" 0 1 (fontified t)) . -318) (undo-tree-id11 . -1) (#("h" 0 1 (fontified t)) . -319) (undo-tree-id12 . -1) (#("a" 0 1 (fontified t)) . -320) (undo-tree-id13 . -1) (#("b" 0 1 (fontified t)) . -321) (undo-tree-id14 . -1) (#("a" 0 1 (fontified t)) . -322) (undo-tree-id15 . -1) (#("n" 0 1 (fontified t)) . -323) (undo-tree-id16 . -1) (#("a" 0 1 (fontified t)) . -324) (undo-tree-id17 . -1) (#("." 0 1 (fontified t)) . -325) (undo-tree-id18 . -1) (#("o" 0 1 (fontified t)) . -326) (undo-tree-id19 . -1) (#("r" 0 1 (fontified t)) . -327) (undo-tree-id20 . -1) (#("g" 0 1 (fontified t)) . -328) (undo-tree-id21 . -1) 329) nil (26017 49705 846140 229000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . -307) (undo-tree-id0 . -1) 308) nil (26017 49705 846116 203000) 0 nil])
+([nil nil ((307 . 310)) nil (26017 49705 846096 717000) 0 nil])
+([nil nil ((310 . 311)) nil (26017 49705 846093 924000) 0 nil])
+([nil nil ((311 . 322)) nil (26017 49705 846091 619000) 0 nil])
+([nil nil ((322 . 323)) nil (26017 49705 846088 755000) 0 nil])
+([nil current ((323 . 325)) nil (26017 49705 846083 28000) 0 nil])
+nil

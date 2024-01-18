@@ -1,0 +1,13 @@
+apiVersion: stackgres.io/v1
+kind: SGCluster
+metadata:
+  name: app1-db
+spec:
+  postgres:
+    version: 'latest'
+  instances: 2
+  pods:
+    persistentVolume:
+      size: '1Gi'
+      storageClass: 'openebs-hostpath'
+  prometheusAutobind: false
